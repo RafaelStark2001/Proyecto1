@@ -709,7 +709,7 @@
       transform: translateY(-10px);
     }
   }
-  /*-------------------------------------------------------------- About Section --------------------------------------------------------------*/
+  /*-------------------------------------------------------------- Producto Section --------------------------------------------------------------*/
   .about h3 {
     font-weight: 700;
     font-size: 28px;
@@ -1123,9 +1123,20 @@
   /* Asegúrate de que la imagen y el texto estén alineados */
   .team-member {
     display: flex;
+    background-color: #333;
+    color: #ffffff;
     flex-direction: column; /* Coloca la imagen y el texto en una columna */
     text-align: center; /* Centra el texto debajo de la imagen */
   }
+
+  #velas {
+    background-color: #666 !important;
+}
+
+#velas h4 {
+  color: white !important;
+}
+
   
   /* Ajuste de imagen */
   .member-img img {
@@ -1156,6 +1167,7 @@
   .book-a-table.section {
     padding: 60px 0;
     background-color: #f8f9fa;
+
   }
   /* Título de la sección */
   .book-a-table .section-title h2 {
